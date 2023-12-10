@@ -1,4 +1,3 @@
-<script type="text/javascript">
 function chat() {
     $.ajax({
       method: "POST",
@@ -23,4 +22,3 @@ setInterval(function() {
         $("#chat").html(result)
       })
 }, 100)
-</script>
