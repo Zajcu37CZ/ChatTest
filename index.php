@@ -12,5 +12,5 @@ if (isset($_POST['input'])) {
 else {
     echo file_get_contents("chat.txt");
 }
-<textarea class="form-control mb-3" rows="20" id="chat" readonly></textarea>
+(?>)<textarea class="form-control mb-3" rows="20" id="chat" readonly></textarea>
 ?>
