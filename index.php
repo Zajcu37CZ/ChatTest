@@ -1,4 +1,3 @@
-setInterval function() 
 <?php
 if (isset($_POST['input'])) {
     $text = trim($_POST['input']);
@@ -10,7 +9,6 @@ if (isset($_POST['input'])) {
     }
 }
 else {
-    echo file_get_contents("chat.txt");
+    echo file_get_contents("./chat.txt");
 }
 ?><textarea class="form-control mb-3" rows="20" id="chat" readonly></textarea>
-?>
